@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    build: ./employee_unit_history_analyzer_next
+    ports:
+      - "5000:3000"
